@@ -8,7 +8,7 @@
   </information>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="JavaFXApplication3.jar" size="7009" download="eager" />
+    <jar href="JavaFXApplication3.jar" size="9498" download="eager" />
     <jar href="lib\fontawesomefx-8.2.jar" size="180341" download="eager" />
     <jar href="lib\javafx-swt.jar" size="37119" download="eager" />
     <jar href="lib\javafx.base.jar" size="755038" download="eager" />
