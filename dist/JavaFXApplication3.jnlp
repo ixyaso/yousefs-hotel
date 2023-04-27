@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="JavaFXApplication3.jnlp">
+  <information>
+    <title>JavaFXApplication3</title>
+    <vendor>youse</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="JavaFXApplication3.jar" size="7009" download="eager" />
+    <jar href="lib\fontawesomefx-8.2.jar" size="180341" download="eager" />
+    <jar href="lib\javafx-swt.jar" size="37119" download="eager" />
+    <jar href="lib\javafx.base.jar" size="755038" download="eager" />
+    <jar href="lib\javafx.controls.jar" size="2577983" download="eager" />
+    <jar href="lib\javafx.fxml.jar" size="130176" download="eager" />
+    <jar href="lib\javafx.graphics.jar" size="4272241" download="eager" />
+    <jar href="lib\javafx.media.jar" size="278549" download="eager" />
+    <jar href="lib\javafx.swing.jar" size="89688" download="eager" />
+    <jar href="lib\javafx.web.jar" size="727749" download="eager" />
+    <jar href="lib\mssql-jdbc-12.2.0.jre8.jar" size="1440368" download="eager" />
+    <jar href="lib\mysql-connector-j-8.0.31.jar" size="2515519" download="eager" />
+    <jar href="lib\ojdbc14.jar" size="1536554" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="javafxapplication3.JavaFXApplication3"  name="JavaFXApplication3" />
+  <update check="always"/>
+</jnlp>
