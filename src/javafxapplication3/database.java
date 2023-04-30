@@ -24,8 +24,8 @@ public class database {
             //Connection connect = DriverManager.getConnection("jdbc:sqlserver://YOUSEFS-LAPTOP\\SQLEXPRESS;databaseName=HotelManagement;user=root;password=");
             //System.out.println("connection is established with sql");
             return connect; 
+             
             
-                    
         }catch(Exception e){e.printStackTrace();}
         return null;
     }
