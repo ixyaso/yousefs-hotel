@@ -8,7 +8,7 @@
   </information>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="JavaFXApplication3.jar" size="13565" download="eager" />
+    <jar href="JavaFXApplication3.jar" size="13505" download="eager" />
     <jar href="lib\fontawesomefx-8.2.jar" size="180341" download="eager" />
     <jar href="lib\mssql-jdbc-12.2.0.jre8.jar" size="1440368" download="eager" />
     <jar href="lib\mysql-connector-j-8.0.31.jar" size="2515519" download="eager" />
