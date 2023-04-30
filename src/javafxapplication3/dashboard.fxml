@@ -197,7 +197,7 @@
                                              </font>
                                           </Label>
                                           <ComboBox fx:id="availableRooms_roomType" layoutX="73.0" layoutY="137.0" onAction="#availableRoomsRoomType" prefHeight="25.0" prefWidth="143.0" promptText="Choose" styleClass="combo-box" stylesheets="@DashboardDesign.css" />
-                                          <ComboBox fx:id="availableRooms_status" layoutX="73.0" layoutY="171.0" prefHeight="25.0" prefWidth="143.0" promptText="Choose" styleClass="combo-box" stylesheets="@DashboardDesign.css" />
+                                          <ComboBox fx:id="availableRooms_status" layoutX="73.0" layoutY="171.0" onAction="#availableroomStatus" prefHeight="25.0" prefWidth="143.0" promptText="Choose" styleClass="combo-box" stylesheets="@DashboardDesign.css" />
                                           <TextField fx:id="availableRooms_price" layoutX="73.0" layoutY="207.0" prefHeight="25.0" prefWidth="143.0" styleClass="textfield" stylesheets="@DashboardDesign.css" />
                                           <Label layoutX="5.0" layoutY="211.0" prefHeight="17.0" prefWidth="52.0" text="Price:">
                                              <font>
