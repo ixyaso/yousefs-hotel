@@ -162,7 +162,7 @@ public class DashoardController implements Initializable{
         
         try{
             
-            String roomNumber = availabelRooms_col_roomNumber.getText();
+            String roomNumber = availableRooms_roomNumber.getText();
             String type = (String)availableRooms_roomType.getSelectionModel().getSelectedItem();
             String status = (String)availableRooms_status.getSelectionModel().getSelectedItem();
             String price = availableRooms_price.getText();
@@ -212,9 +212,23 @@ public class DashoardController implements Initializable{
         availableRooms_roomType.setItems(list);
     }
     
+    public String status[] = {"Available", "Not Available", "Occupied"};
+    
+    public void availableroomStatus(){
+        List<String> listData = new ArrayList<>();
+        
+        for(String data: status){
+            listData.add(data);
+        }
+        ObservableList list = FXCollections.observableArrayList(listData);
+        
+        availableRooms_status.setItems(list);
+    }
+    
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         availableRoomsRoomType();
+        availableroomStatus();
     }
     
 }
