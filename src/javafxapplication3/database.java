@@ -19,7 +19,7 @@ public class database {
             
             Class.forName("com.mysql.cj.jdbc.Driver");
          
-            Connection connect = DriverManager.getConnection("jdbc:mysql://localhost:3306/hotelmanagement","root","" );
+            Connection connect = DriverManager.getConnection("jdbc:mysql://localhost:3306/hotel","root","" );
             
             //Connection connect = DriverManager.getConnection("jdbc:sqlserver://YOUSEFS-LAPTOP\\SQLEXPRESS;databaseName=HotelManagement;user=root;password=");
             //System.out.println("connection is established with sql");
